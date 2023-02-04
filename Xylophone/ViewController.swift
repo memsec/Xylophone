@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBAction func keyPressed(_ sender: UIButton){
         
         
-        playSound(soundName: sender.currentTitle!)
+        playSound(soundName: (sender.currentTitle)!)
         }
     
     func playSound(soundName: String) {
